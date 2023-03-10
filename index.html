@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="main">
+
+      <!-- HEADER START -->
+
+      <div class="header">
+        <nav class="desktop-navbar">
+          <img src="images/logo.svg" alt="logo" class="logo">
+          <ul class="desktop-navbar-items" data-visible="false">
+            <li class="hover-style"> <a href="#">About</a> </li>
+            <li class="hover-style"> <a href="#">Services</a> </li>
+            <li class="hover-style"> <a href="#">Projects</a> </li>
+            <li class="active"> <a href="#">CONTACT</a> </li>
+          </ul>
+
+          <button class="mobile-hamburger"></button>
+        
+        </nav>
+
+        <h1 class="header-title">WE ARE <br class="mobile-only" />CREATIVES</h1>
+        <img src="./images/icon-arrow-down.svg" alt="arrow-down icon" class="arrow-down-icon">
+      </div>
+      <!-- HEADER ENDS -->
+
+      <!-- HERO STARTS -->
+      <div class="hero">
+        <section class="left-right-section">
+          <div class="info-container">
+            <p  class="info-container-title">Transform your <br /> brand</p>
+
+            <p class="info-container-subtitle">
+              We are a full-service creative agency specializing 
+              in helping brands grow fast. Engage your clients 
+              through compelling visuals that do most of the 
+              marketing for you.
+            </p>
+
+            <a class="learnmore yellow" href="#">LEARN MORE</a>
+          </div>
+
+          <div 
+            class="section-image-container mobile-img "
+            style="background-image: url('./images/desktop/image-transform.jpg')"
+          >
+            <!-- <img class="left-right-section-image" src="./images/desktop/image-transform.jpg" alt="art"> -->
+
+          </div>
+
+        </section>
+
+        <section class="left-right-section">
+          <div 
+            class="section-image-container mobile-img"
+            style="background-image: url('./images/desktop/image-stand-out.jpg');"  
+          >
+            <!-- <img class="left-right-section-image" src="./images/desktop/image-stand-out.jpg" alt="art"> -->
+
+          </div>
+
+          <div class="info-container">
+            <p class="info-container-title">Stand out to the right<br /> audience</p>
+
+            <p class="info-container-subtitle">
+              Using a collaborative formula of designers, 
+              researchers, photographers, videographers, and 
+              copywriters, we’ll build and extend your brand 
+              in digital places. 
+            </p>
+
+            <a class="learnmore red" href="#">LEARN MORE</a>
+          </div>
+        </section>
+
+        <section class="top-down-section">
+          
+          <div class="top-down-container graphic" style="background-image: url('./images/desktop/image-graphic-design.jpg');">
+            <p class="top-down-title">Graphic Design</p>
+            <p class="top-down-subtitle"> 
+              Great design makes you memorable. 
+              We deliver artwork that underscores 
+              your brand message and captures
+               potential clients’ attention.
+            </p>
+          </div>
+
+          <div class="top-down-container photography" style="background-image: url('./images/desktop/image-photography.jpg');">
+            <p class="top-down-title">Photography</p>
+            <p class="top-down-subtitle"> 
+              Increase your credibility by getting the most stunning,
+               high-quality photos that improve your business image.
+            </p>
+          </div>
+        </section>
+
+        <section class="testimonial-section">
+          <p class="testimonial-title">CLIENT TESTIMONIALS</p>
+
+          <div class="testified-profile">
+            <div class="testify-card">
+              <img class="user-profile" src="./images/image-emily.jpg" alt="user-avatar">
+
+              <p class="comments">
+                We put our trust in Sunnyside and they delivered, 
+                making sure our needs were met and deadlines were 
+                always hit.
+              </p>
+              
+              <div class="user-info">
+                <p class="user-name">
+                  Emily R.
+                </p>
+                <p class="user-profession">
+                  Marketing Director
+                </p>
+              </div>
+            </div>
+
+            <div class="testify-card">
+              <img class="user-profile" src="./images/image-thomas.jpg" alt="user-avatar">
+
+              <p class="comments">
+                Sunnyside’s enthusiasm coupled with 
+                their keen interest in our brand’s success 
+                made it a satisfying and enjoyable experience.
+              </p>
+              
+              <div class="user-info">
+                <p class="user-name">
+                  Thomas S.
+                </p>
+                <p class="user-profession">
+                  Chief Operating Officer
+                </p>
+
+              </div>
+            </div>
+
+            <div class="testify-card">
+              <img class="user-profile" src="./images/image-jennie.jpg" alt="user-avatar">
+
+              <p class="comments">
+                Incredible end result! Our sales increased over
+                 400% when we worked with Sunnyside. Highly 
+                 recommended!
+              </p>
+              
+              <div class="user-info">
+                <p class="user-name">
+                  Jennie F.
+                </p>
+                <p class="user-profession">
+                  Business Owner
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      </div>
+      <!-- HERO ENDS -->
+
+      <!-- FOOTER STARTS -->
+      <footer>
+        <section class="img-carousel">
+          <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+          <img src="./images/desktop/image-gallery-orange.jpg" alt="">
+          <img src="./images/desktop/image-gallery-cone.jpg" alt="">
+          <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+        </section>
+
+        <div class="footer-main">
+          <img src="images/footerlogo.svg" alt="logo" class="logo">
+
+          <div class="footer-navigation">
+            <ul class="footer-items">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+            </ul>
+          </div>
+
+          <div class="socials">
+            <a href="#"><img src="./images/icon-facebook.svg" alt="facebook-icon"></a>
+            <a href="#"><img src="./images/icon-instagram.svg" alt="instagram-icon"></a>
+            <a href="#"><img src="./images/icon-twitter.svg" alt="twitter-icon"></a>
+            <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest-icon"></a>
+
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+  <script>
+    const hamburgerEl = document.querySelector('.mobile-hamburger')
+    const navbar = document.querySelector('.desktop-navbar-items')
+
+    hamburgerEl.addEventListener('click', handleClick)
+
+    function handleClick() {
+      const visibility = navbar.getAttribute('data-visible')
+
+      if(visibility === 'true'){ 
+        navbar.setAttribute('data-visible', 'false')
+      } else {
+        navbar.setAttribute('data-visible', 'true')
+      }
+
+    }
+  </script>
+</body>
+</html>
